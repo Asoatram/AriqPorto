@@ -134,8 +134,8 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div className='md:block hidden'>
-            <Lanyard />
+          <div className='md:block hidden h-[400px]'>
+            <Lanyard scale={4.5} position={[0, 0, 30]} fov={20}/>
           </div>
         </section>
 
@@ -253,7 +253,7 @@ export default function HomePage() {
         <div className="bg-[#1D2026] p-8 md:col-span-1">
           <div className="flex items-center gap-6">
             {/* Ikon Kustom (SVG) */}
-            <Image src={"/logo.png"} alt="Logo Ariq" width={64} height={64} className="" />
+            <Image src={"/Logo.png"} alt="Logo Ariq" width={64} height={64} className="" />
     
             
             {/* Detail Kontak */}
