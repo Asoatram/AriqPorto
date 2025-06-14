@@ -118,9 +118,9 @@ export default function HomePage() {
 
         {/* =========== HERO SECTION =========== */}
         <section className="grid-cols-1 md:flex items-center justify-between gap-10 my-12 pt-8 md:pt-16">
-          <div className='block md:hidden -mx-[150px] -my-[150px]'>
-            <Lanyard />
-          </div>
+        <div className='md:hidden -my-[80px] w-full h-[400px]'>
+          <Lanyard scale={4.5} position={[0, 0, 30]} fov={20}/> 
+        </div>
 
           {/* Teks di Kiri */}
           <div className="flex-1">
